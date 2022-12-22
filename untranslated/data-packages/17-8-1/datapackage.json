@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "C",
+                "E",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.",
+                "Ethiopian Telecommunication Agency",
+                "ITU estimate.",
+                "Ministry of Communications and Information Technology",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

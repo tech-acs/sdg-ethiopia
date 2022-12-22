@@ -1,1 +1,13 @@
 From,To
+UNIT_MULT,NATURE
+NATURE,SOURCE_DETAIL
+UPPER_BOUND,LOWER_BOUND
+Source details,UPPER_BOUND
+LOWER_BOUND,COMMENT_OBS
+SOURCE_DETAIL,SDG Series
+SDG Series,Unit of measure
+Unit of measure,Nature of data points
+Nature of data points,Upper bound value
+Upper bound value,Lower bound value
+Lower bound value,Source details
+COMMENT_OBS,Observation-level footnotes

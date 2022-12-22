@@ -12,7 +12,89 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Abnormally high defined as IFPA>=1; Moderately high defined as 0.5=<IFPA< 1; Twelve month average of monthly price anomalies",
+                " Addis Ababa, Wheat (white), Wholesale price",
+                " Addis Ababa, Maize, Wholesale price",
+                " Addis Ababa, Sorghum (white), Wholesale price",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FAOSTAT Data/ Consumer Price Indices: http://www.fao.org/faostat/en/#data/CP.",
+                "Food Price Monitoring and Analysis (FPMA) online database: https://fpma.apps.fao.org/giews/food-prices/tool/public/#/dataset/domestic.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index [2.c.1]",
+                "Indicator of Food Price Anomalies (IFPA) [2.c.1]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Wheat",
+                "Maize",
+                "Sorghum",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Not Available",
+                "Global monitoring data",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = NaN;  NaN = A figure was not provided",
+                " Addis Ababa, Wheat (white), Wholesale price",
+                " Addis Ababa, Maize, Wholesale price",
+                " Addis Ababa, Sorghum (white), Wholesale price",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NA",
+                "Food Price Monitoring and Analysis (FPMA) online database: https://fpma.apps.fao.org/giews/food-prices/tool/public/#/dataset/domestic.",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

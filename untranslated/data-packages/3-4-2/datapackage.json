@@ -12,7 +12,146 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "13.2",
+                "11",
+                "9.6",
+                "7.7",
+                "8.3",
+                "7.2",
+                "5.7",
+                "4.3",
+                "4.2",
+                "18.2",
+                "14.9",
+                "13.4",
+                "11.2",
+                "8758",
+                "8425",
+                "8383",
+                "7715",
+                "8624",
+                "2754",
+                "2756",
+                "2504",
+                "2163",
+                "2355",
+                "6004",
+                "5670",
+                "5879",
+                "5552",
+                "6268",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "6.7",
+                "5.9",
+                "5.2",
+                "3.9",
+                "3.7",
+                "4.4",
+                "4",
+                "3.3",
+                "2.3",
+                "2.1",
+                "9",
+                "7.7",
+                "7.1",
+                "5.5",
+                "5.3",
+                "4434",
+                "4482",
+                "4566",
+                "3940",
+                "4141",
+                "1450",
+                "1537",
+                "1453",
+                "1157",
+                "1196",
+                "2985",
+                "2945",
+                "3113",
+                "2783",
+                "2946",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Suicide mortality rate [3.4.2]",
+                "Number of deaths attributed to suicide [3.4.2]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 100,000 population",
+                "Number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "7.7",
+                "4.2",
+                "11.2",
+                "8624",
+                "2355",
+                "6268",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "3.7",
+                "2.1",
+                "5.3",
+                "4141",
+                "1196",
+                "2946",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -12,8 +12,255 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "3",
+                ""
+              ]
+            },
+            "title": "UNIT_MULT"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CA",
+                "C",
+                "M",
+                ""
+              ]
+            },
+            "title": "NATURE"
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "13.4",
+                "13.8",
+                "10.8",
+                "10.4",
+                "10.9",
+                "1654.3",
+                "1873.2",
+                "1558.4",
+                "1575.5",
+                "1731.8",
+                "4.3",
+                "4.4",
+                "4.2",
+                "4",
+                "3.8",
+                "3.6",
+                "3.4",
+                "3.3",
+                "3.1",
+                "3",
+                "3.2",
+                "526.6",
+                "558.4",
+                "578.9",
+                "588",
+                "585.6",
+                "572.3",
+                "549.4",
+                "524.4",
+                "500.6",
+                "480.1",
+                "464.3",
+                "453.2",
+                "448.1",
+                "453.3",
+                "463.9",
+                "481.9",
+                "503.5",
+                "529.1",
+                "560.1",
+                "597.5",
+                ""
+              ]
+            },
+            "title": "UPPER_BOUND"
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "11.4",
+                "11.1",
+                "8.8",
+                "7.5",
+                "9.1",
+                "1407.7",
+                "1503.4",
+                "1275.9",
+                "1145",
+                "1442.5",
+                "2.4",
+                "2.5",
+                "2.6",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2",
+                "1.9",
+                "290.8",
+                "315.7",
+                "334.2",
+                "345.2",
+                "349",
+                "346.5",
+                "337.6",
+                "326.1",
+                "314.8",
+                "305.9",
+                "299.3",
+                "294",
+                "291.5",
+                "291.8",
+                "297.1",
+                "302.5",
+                "308",
+                "313.2",
+                "318",
+                "322",
+                ""
+              ]
+            },
+            "title": "LOWER_BOUND"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia demographic and health survey 2000. Demographic and Health Surveys. Addis Ababa, Ethiopia and Calverton, Maryland, USA: Central Statistical Authority and ORC Macro, 2001",
+                "Ethiopia demographic and health survey 2005. Demographic and Health Surveys. Addis Ababa, Ethiopia and Calverton, Maryland, USA: General Statistical Agency and ORC Macro, 2006",
+                "Ethiopia demographic and health survey 2011. Demographic and Health Surveys. Addis Ababa, Ethiopia and Calverton, Maryland, USA: Central Statistical Agency and ICF International, 2012",
+                "Ethiopia mini demographic and health survey 2014. Addis Ababa, Ethiopia, 2014.",
+                "Ethiopia Demographic and Health Survey 2016. Addis Ababa, Ethiopia, and Rockville, Maryland, USA: CSA and ICF.",
+                "Ethiopia Mini Demographic and Health Survey 2019: Key Indicators. Rockville, Maryland, USA: EPHI and ICF.",
+                "Source: Joint Child Malnutrition Estimates (2021 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of children moderately or severely wasted [2.2.2]",
+                "Children moderately or severely wasted (number) [2.2.2]",
+                "Proportion of children moderately or severely overweight [2.2.2]",
+                "Children moderately or severely overweight (number) [2.2.2]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Number",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string",
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Country Data",
+                "Modeled",
+                ""
+              ]
+            },
+            "title": "Nature of data points"
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10.9",
+                "1731.8",
+                "3.6",
+                "597.5",
+                ""
+              ]
+            },
+            "title": "Upper bound value"
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "9.1",
+                "1442.5",
+                "1.9",
+                "322",
+                ""
+              ]
+            },
+            "title": "Lower bound value"
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia Mini Demographic and Health Survey 2019: Key Indicators. Rockville, Maryland, USA: EPHI and ICF.",
+                "Source: Joint Child Malnutrition Estimates (2021 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+                ""
+              ]
+            },
+            "title": "Source details"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account. , Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account. , Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
           },
           {
             "name": "Value",

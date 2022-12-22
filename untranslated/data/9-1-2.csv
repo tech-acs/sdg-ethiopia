@@ -1,1 +1,24 @@
-Year,Value
+Year,NATURE,SOURCE_DETAIL,SDG Series,Composite breakdown,Unit of measure,Nature of data points,Source details,Value
+2017,C,ICAO,Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Air,Tonne kilometres,Country Data,ICAO,2076185020
+2018,C,ICAO,Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Air,Tonne kilometres,Country Data,ICAO,2089277540
+2019,C,ICAO,Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Air,Tonne kilometres,Country Data,ICAO,2450272960
+2020,C,ICAO,Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Air,Tonne kilometres,Country Data,ICAO,2897134100
+2018,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of transport: Inland waterway transport,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),15054919
+2019,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of transport: Inland waterway transport,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),16400000
+2020,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of transport: Inland waterway transport,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),15000000
+2018,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Rail,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),788911615
+2019,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Rail,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),1939800000
+2020,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Rail,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),1927000000
+2018,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Road,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),27234776645
+2019,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Road,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),53194200000
+2020,M,the International Transport Forum at the OECD (ITF-OECD),Freight volume (tonne kilometres) [9.1.2],Mode of Transport: Road,Tonne kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),51524000000
+2017,C,ICAO,Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Air,Passenger kilometres,Country Data,ICAO,34903166040
+2018,C,ICAO,Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Air,Passenger kilometres,Country Data,ICAO,42558923590
+2019,C,ICAO,Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Air,Passenger kilometres,Country Data,ICAO,45289320950
+2020,C,ICAO,Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Air,Passenger kilometres,Country Data,ICAO,16407322970
+2018,M,the International Transport Forum at the OECD (ITF-OECD),Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Rail,Passenger kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),397991825
+2019,M,the International Transport Forum at the OECD (ITF-OECD),Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Rail,Passenger kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),6853400000
+2020,M,the International Transport Forum at the OECD (ITF-OECD),Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Rail,Passenger kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),475000000
+2018,M,the International Transport Forum at the OECD (ITF-OECD),Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Road,Passenger kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),33969699866
+2019,M,the International Transport Forum at the OECD (ITF-OECD),Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Road,Passenger kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),47905481818
+2020,M,the International Transport Forum at the OECD (ITF-OECD),Passenger volume (passenger kilometres) [9.1.2],Mode of Transport: Road,Passenger kilometres,Modeled,the International Transport Forum at the OECD (ITF-OECD),40264000000

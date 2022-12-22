@@ -12,8 +12,96 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.31677",
+                "1.66826",
+                "2.21043",
+                "2.38325",
+                "3.10384",
+                "0.46468",
+                "0.59413",
+                "0.79413",
+                "0.84462",
+                "1.10871",
+                "2.20168",
+                "2.81014",
+                "3.73011",
+                "3.95447",
+                "5.12206",
+                ""
+              ]
+            },
+            "title": "UPPER_BOUND"
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.26433",
+                "0.41874",
+                "0.74166",
+                "1.05297",
+                "1.44674",
+                "0.09329",
+                "0.14727",
+                "0.26187",
+                "0.36903",
+                "0.5034",
+                "0.44155",
+                "0.69885",
+                "1.23919",
+                "1.74868",
+                "2.39348",
+                ""
+              ]
+            },
+            "title": "LOWER_BOUND"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "3.10384",
+                "1.10871",
+                "5.12206",
+                ""
+              ]
+            },
+            "title": "Upper bound value"
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.44674",
+                "0.5034",
+                "2.39348",
+                ""
+              ]
+            },
+            "title": "Lower bound value"
           },
           {
             "name": "Value",

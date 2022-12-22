@@ -12,7 +12,114 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "E",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "C",
+                "E",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FAO calculation based on UNSD national account estimates",
+                "FAO calculation based on WB national account data",
+                "IMF data. UNSD national account estimates",
+                "IMF data and FAO Imputation. UNSD national account estimates",
+                "IMF data.",
+                "IMF data and FAO Imputation.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture value added share of GDP [2.a.1]",
+                "Agriculture orientation index for government expenditures [2.a.1]",
+                "Agriculture share of Government Expenditure [2.a.1]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation status",
+            "type": "string"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Country Data",
+                "Not Available",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FAO calculation based on WB national account data",
+                "NA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Budgetary Central Government Expenditure",
+                "Consolidated Central Government Expenditure Excluding Social Security Funds",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = NaN;  NaN = A figure was not provided",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

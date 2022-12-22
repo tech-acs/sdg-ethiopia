@@ -12,7 +12,59 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CA",
+                "C",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia 2005 Demographic and Health Survey",
+                "Ethiopia 2011 Demographic and Health Survey",
+                "Ethiopia 2014 Mini Demographic and Health Survey",
+                "Ethiopia 2016 Demographic and Health Survey",
+                "Ethiopia 2019 Demographic and Health Survey",
+                "Ethiopia 2007 Census",
+                "Ethiopia 2014 PMA2020 Round 2",
+                "Ethiopia 2016 Demographic and Health Survey (DHS)",
+                "Ethiopia 2016 PMA2020 Round 4",
+                "Ethiopia 2019 PMA Cross Sectional",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10 to 14 years old",
+                "15 to 19 years old",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia 2019 Demographic and Health Survey",
+                "Ethiopia 2019 PMA Cross Sectional",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

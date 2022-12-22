@@ -12,11 +12,84 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "C",
+                "E",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Out of 74 local breeds (including extinct ones), 6 are reported with genetic material stored, out of which 5 are reported with sufficient material stored to allow them to be reconstituted",
+                "Obs_Value = 0;  Out of 25 transboundary breeds (including extinct ones), 0 are reported with genetic material stored, out of which 0 are reported with sufficient material stored to allow them to be reconstituted",
+                "Estimate based on the acquisition date of each conserved accession as reported in 2014.",
+                "Estimate based on 2017 report.",
+                "Estimate based on 2019 report.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "DAD-IS 21.11.2022 http://www.fao.org/dad-is/",
+                "DAD-IS 28.11.2022 http://www.fao.org/dad-is/",
+                "FAO-WIEWS (http://www.fao.org/wiews)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of local breeds for which sufficient genetic resources are stored for reconstitution [2.5.1]",
+                "Number of transboundary breeds for which sufficient genetic resources are stored for reconstitution [2.5.1]",
+                "Plant genetic resources accessions stored ex situ (number) [2.5.1]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Out of 74 local breeds (including extinct ones), 6 are reported with genetic material stored, out of which 5 are reported with sufficient material stored to allow them to be reconstituted",
+                "Obs_Value = 0;  Out of 25 transboundary breeds (including extinct ones), 0 are reported with genetic material stored, out of which 0 are reported with sufficient material stored to allow them to be reconstituted",
+                "Estimate based on 2019 report.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "DAD-IS 21.11.2022 http://www.fao.org/dad-is/",
+                "DAD-IS 28.11.2022 http://www.fao.org/dad-is/",
+                "FAO-WIEWS (http://www.fao.org/wiews)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

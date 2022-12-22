@@ -1,1 +1,19 @@
-Year,Value
+Year,UNIT_MULT,SDG Series,Unit of measure,Unit multiplier,Value
+2015,9,Fossil-fuel subsidies (consumption and production) [12.c.1],USD,Billions,0.49772
+2016,9,Fossil-fuel subsidies (consumption and production) [12.c.1],USD,Billions,0.51251
+2017,9,Fossil-fuel subsidies (consumption and production) [12.c.1],USD,Billions,0.81328
+2018,9,Fossil-fuel subsidies (consumption and production) [12.c.1],USD,Billions,1.17984
+2019,9,Fossil-fuel subsidies (consumption and production) [12.c.1],USD,Billions,0.92535
+2020,9,Fossil-fuel subsidies (consumption and production) [12.c.1],USD,Billions,0.56547
+2015,0,Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1],Percent,Units,0.78904
+2016,0,Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1],Percent,Units,0.75537
+2017,0,Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1],Percent,Units,1.09403
+2018,0,Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1],Percent,Units,1.48586
+2019,0,Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1],Percent,Units,1.07542
+2020,0,Fossil-fuel subsidies (consumption and production) as a proportion of total GDP [12.c.1],Percent,Units,0.61965
+2015,0,Fossil-fuel subsidies (consumption and production) per capita [12.c.1],USD,Units,4.93592
+2016,0,Fossil-fuel subsidies (consumption and production) per capita [12.c.1],USD,Units,4.9468
+2017,0,Fossil-fuel subsidies (consumption and production) per capita [12.c.1],USD,Units,7.6436
+2018,0,Fossil-fuel subsidies (consumption and production) per capita [12.c.1],USD,Units,10.80201
+2019,0,Fossil-fuel subsidies (consumption and production) per capita [12.c.1],USD,Units,8.25629
+2020,0,Fossil-fuel subsidies (consumption and production) per capita [12.c.1],USD,Units,4.91872

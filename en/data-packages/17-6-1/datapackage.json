@@ -12,8 +12,120 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E",
+                "C",
+                ""
+              ]
+            },
+            "title": "NATURE"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Data based on the World Telecommunication/ICT Indicators Database, 2021, International Telecommunication Union (ITU)",
+                "Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.",
+                "ITU estimate.",
+                "Ethiopian Telecommunication Agency.",
+                "Ministry of Communication and InformationTechnology.",
+                "Ministry of Communications and Information Technology",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fixed broadband subscriptions per 100 inhabitants [17.6.1]",
+                "Fixed broadband subscriptions (number) [17.6.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Internet speed: 256 kbit/s to less than 2 Mbit/s",
+                "Internet speed: 2 Mbit/s to less than 10 Mbit/s",
+                "Internet speed: 10 Mbit/s or above",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 100 population",
+                "Number",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Estimated",
+                "Country Data",
+                ""
+              ]
+            },
+            "title": "Nature of data points"
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Data based on the World Telecommunication/ICT Indicators Database, 2021, International Telecommunication Union (ITU)",
+                "ITU estimate.",
+                "Ministry of Communications and Information Technology",
+                ""
+              ]
+            },
+            "title": "Source details"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Starting end of 2016, and in 2017 our country was under a state of emergency where internet shutdown was implemented this  has shown significant decrease.",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Starting end of 2016, and in 2017 our country was under a state of emergency where internet shutdown was implemented this  has shown significant decrease.",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",

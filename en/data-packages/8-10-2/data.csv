@@ -1,1 +1,23 @@
-Year,Value
+Year,SDG Series,Sex,Age,Income or wealth quantile,Education level,Value
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,,21.79158
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,,34.82757
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,Primary education or less,19.3671
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,Primary education or less,29.57227
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,Secondary education or above,37.20362
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,Secondary education or above,65.04379
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,Bottom 40%,,15.00822
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,Bottom 40%,,22.41228
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,Richest 60%,,26.26392
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,Richest 60%,,43.09527
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,25 years old and over,,,25.58814
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,25 years old and over,,,38.36133
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 to 24 years old,,,14.29523
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],,15 to 24 years old,,,28.16429
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],Female,15 years old and over,,,21.00403
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],Female,15 years old and over,,,29.07543
+2014,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],Male,15 years old and over,,,22.62206
+2017,Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2],Male,15 years old and over,,,40.94387
+2014,Proportion of adults (15 years and older) active in labor force with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,,24.19034
+2017,Proportion of adults (15 years and older) active in labor force with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,,38.39322
+2014,Proportion of adults (15 years and older) out of labor force with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,,17.47153
+2017,Proportion of adults (15 years and older) out of labor force with an account at a financial institution or mobile-money-service provider [8.10.2],,15 years old and over,,,23.38583

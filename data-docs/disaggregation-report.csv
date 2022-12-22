@@ -1,1 +1,29 @@
 Disaggregation,Number of indicators,Number of values
+Age,11,20
+Base period,6,3
+BASE_PER,6,3
+COMMENT_OBS,65,124
+Composite breakdown,18,96
+Custom Breakdown,2,7
+Degree of urbanisation,9,4
+Disability status,1,2
+Economic activity,3,5
+Education level,6,7
+Income or wealth quantile,5,7
+Label for custom breakdown,2,7
+Lower bound value,11,52
+LOWER_BOUND,17,431
+Nature of data points,11,6
+NATURE,23,5
+OBS_STATUS,2,3
+Observation-level footnotes,46,77
+Occupation,2,20
+SDG Series,83,289
+Sex,29,3
+Source details,23,64
+SOURCE_DETAIL,30,168
+Type of product,6,26
+Unit of measure,35,18
+UNIT_MULT,9,4
+Upper bound value,11,55
+UPPER_BOUND,17,459

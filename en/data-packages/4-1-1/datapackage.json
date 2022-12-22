@@ -12,8 +12,63 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopian Fifth National Learning Assessment. Percentage of students who scored 50% and above. Grade 4. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment.  Grade 4. MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment.  Grade 4 (English). MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Ethiopian Fifth National Learning Assessment. Percentage of students who scored 50% and above. Grade 8. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment. Grade 8. MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Ethiopian Fifth National Learning Assessment. Percentage of students who scored 50% and above in English. Grade 8. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment. Grade 8 (English). MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Primary education",
+                "Lower secondary education",
+                ""
+              ]
+            },
+            "title": "Education level"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Skill: Mathematics",
+                "Skill: Reading",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sixth National Learning Assessment.  Grade 4. MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment.  Grade 4 (English). MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment. Grade 8. MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                "Sixth National Learning Assessment. Grade 8 (English). MPL: Proficient. The minimum proficiency level alignment of this assessment is pending and subject to harmonization.",
+                ""
+              ]
+            },
+            "title": "Source details"
           },
           {
             "name": "Value",

@@ -12,7 +12,52 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unemployment rate [8.5.2]",
+                "Unemployment rate, by disability [8.5.2]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 years old and over",
+                "25 years old and over",
+                "15 to 24 years old",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Disability status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Persons with disability",
+                "Persons without disability",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

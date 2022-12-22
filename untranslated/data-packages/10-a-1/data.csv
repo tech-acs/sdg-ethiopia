@@ -1,1 +1,47 @@
-Year,Value
+Year,Type of product,Observation-level footnotes,COMMENT_OBS,Value
+2005,,,,46.86761
+2010,,,,51.80986
+2015,,,,56.61698
+2016,,,,51.81347
+2017,,,,58.01789
+2018,,,,58.60228
+2019,,,,44.93035
+2020,,,,42.87817
+2005,Agriculture products,,,49.02597
+2010,Agriculture products,,,51.86522
+2015,Agriculture products,,,54.22716
+2016,Agriculture products,,,55.19013
+2017,Agriculture products,,,61.90083
+2018,Agriculture products,,,62.09476
+2019,Agriculture products,,,57.95276
+2020,Agriculture products,,,57.98687
+2005,Arms,Obs_Value = 0;  ,,100.0
+2017,Arms,Obs_Value = 0;  ,Obs_Value = 0;  ,0.0
+2018,Arms,Obs_Value = 0;  ,Obs_Value = 0;  ,0.0
+2020,Arms,Obs_Value = 0;  ,,75.0
+2005,Clothing,,,36.60714
+2010,Clothing,,,73.41772
+2015,Clothing,,,56.69856
+2016,Clothing,,,53.05164
+2017,Clothing,,,55.57029
+2018,Clothing,,,56.65761
+2019,Clothing,,,43.85522
+2020,Clothing,,,43.27666
+2005,Industrial products,,,45.27873
+2010,Industrial products,,,49.36709
+2015,Industrial products,,,60.15727
+2016,Industrial products,,,49.84848
+2017,Industrial products,,,58.48256
+2018,Industrial products,,,59.16031
+2019,Industrial products,,,41.60305
+2020,Industrial products,,,37.77705
+2017,Oil,,,100.0
+2018,Oil,,,100.0
+2005,Textiles,,,60.71429
+2010,Textiles,,,47.05882
+2015,Textiles,,,41.27907
+2016,Textiles,,,44.88636
+2017,Textiles,,,43.7037
+2018,Textiles,,,43.86617
+2019,Textiles,,,27.79456
+2020,Textiles,,,27.77778

@@ -1,1 +1,67 @@
-Year,Value
+Year,OBS_STATUS,Sex,Occupation,Observation status,Value
+2005,A,,,Normal value,1.93
+2013,A,,,Normal value,8.1
+2013,A,,Managers,Normal value,15.79
+2013,A,,Professionals,Normal value,14.16
+2013,A,,Technicians and associate professionals,Normal value,10.38
+2013,A,,Clerical support workers,Normal value,9.41
+2013,A,,Service and sales workers,Normal value,3.63
+2013,A,,"Skilled agricultural, forestry and fishery workers",Normal value,5.4
+2013,A,,Craft and related trades workers,Normal value,7.15
+2013,A,,"Plant and machine operators, and assemblers",Normal value,7.44
+2013,A,,Elementary occupations,Normal value,4.2
+2013,A,,Not elsewhere classified,Normal value,7.14
+2005,A,,Armed forces,Normal value,2.26
+2005,A,,"Legislators, senior officials and managers",Normal value,4.78
+2005,A,,Professionals,Normal value,4.96
+2005,A,,Technicians and associate professionals,Normal value,3.75
+2005,A,,Clerks,Normal value,2.86
+2005,A,,Service workers and shop and market sales workers,Normal value,0.98
+2005,A,,Skilled agricultural and fishery workers,Normal value,1.32
+2005,A,,Craft and related trades workers,Normal value,1.62
+2005,A,,Plant and machine operators and assemblers,Normal value,2.1
+2005,A,,Elementary occupations,Normal value,0.81
+2005,U,,Not elsewhere classified,Low reliability,1.79
+2005,A,Female,,Normal value,1.47
+2013,A,Female,,Normal value,6.5
+2013,A,Female,Managers,Normal value,13.94
+2013,A,Female,Professionals,Normal value,12.63
+2013,A,Female,Technicians and associate professionals,Normal value,9.15
+2013,A,Female,Clerical support workers,Normal value,8.52
+2013,A,Female,Service and sales workers,Normal value,2.71
+2013,A,Female,"Skilled agricultural, forestry and fishery workers",Normal value,4.22
+2013,A,Female,Craft and related trades workers,Normal value,4.25
+2013,A,Female,"Plant and machine operators, and assemblers",Normal value,5.05
+2013,A,Female,Elementary occupations,Normal value,3.49
+2013,U,Female,Not elsewhere classified,Low reliability,6.31
+2005,A,Female,"Legislators, senior officials and managers",Normal value,4.87
+2005,A,Female,Professionals,Normal value,4.01
+2005,A,Female,Technicians and associate professionals,Normal value,3.5
+2005,A,Female,Clerks,Normal value,2.78
+2005,A,Female,Service workers and shop and market sales workers,Normal value,0.7
+2005,A,Female,Skilled agricultural and fishery workers,Normal value,0.73
+2005,A,Female,Craft and related trades workers,Normal value,0.89
+2005,A,Female,Plant and machine operators and assemblers,Normal value,1.78
+2005,A,Female,Elementary occupations,Normal value,0.67
+2005,A,Male,,Normal value,2.2
+2013,A,Male,,Normal value,8.98
+2013,A,Male,Managers,Normal value,16.22
+2013,A,Male,Professionals,Normal value,14.95
+2013,A,Male,Technicians and associate professionals,Normal value,10.97
+2013,A,Male,Clerical support workers,Normal value,11.18
+2013,A,Male,Service and sales workers,Normal value,4.55
+2013,A,Male,"Skilled agricultural, forestry and fishery workers",Normal value,5.66
+2013,A,Male,Craft and related trades workers,Normal value,8.03
+2013,A,Male,"Plant and machine operators, and assemblers",Normal value,7.79
+2013,A,Male,Elementary occupations,Normal value,4.67
+2013,A,Male,Not elsewhere classified,Normal value,7.28
+2005,A,Male,Armed forces,Normal value,2.28
+2005,A,Male,"Legislators, senior officials and managers",Normal value,4.76
+2005,A,Male,Professionals,Normal value,5.35
+2005,A,Male,Technicians and associate professionals,Normal value,3.87
+2005,A,Male,Clerks,Normal value,2.96
+2005,A,Male,Service workers and shop and market sales workers,Normal value,1.21
+2005,A,Male,Skilled agricultural and fishery workers,Normal value,1.44
+2005,A,Male,Craft and related trades workers,Normal value,1.88
+2005,A,Male,Plant and machine operators and assemblers,Normal value,2.13
+2005,A,Male,Elementary occupations,Normal value,0.93

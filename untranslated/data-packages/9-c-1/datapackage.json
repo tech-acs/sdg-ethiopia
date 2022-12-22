@@ -12,7 +12,43 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E",
+                "C",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Data based on the World Telecommunication/ICT Indicators Database, 2021, International Telecommunication Union (ITU)",
+                "ITU research.",
+                "Ministry of Communications and Information Technology",
+                "ITU estimate.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population covered by at least a 2G mobile network [9.c.1]",
+                "Proportion of population covered by at least a 3G mobile network [9.c.1]",
+                "Proportion of population covered by at least a 4G mobile network [9.c.1]",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -12,8 +12,36 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of schools with basic handwashing facilities, by education level [4.a.1]",
+                "Proportion of schools with access to computers for pedagogical purposes, by education level [4.a.1]",
+                "Proportion of schools with access to electricity, by education level [4.a.1]",
+                "Proportion of schools with access to the internet for pedagogical purposes, by education level [4.a.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                "Secondary education (lower and upper secondary education)",
+                ""
+              ]
+            },
+            "title": "Education level"
           },
           {
             "name": "Value",

@@ -12,7 +12,142 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "C",
+                "E",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia DHS 2000. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2005. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Ethiopia Population and Housing Census 2007. IPUMS-Intertiol, Central Statistical Agency.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2011. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2000. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2005. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2011. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2011. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2005. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "National Labor Force Survey. Reference period for participation in education and training: unknown, likely 1 month prior to the interview. Data extracted on 01 April 2022.",
+                "UNESCO Institute for Statistics.  Data extracted on 01 April 2022.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adjusted gender parity index for completion rate, by sex, location, wealth quintile and education level [4.5.1]",
+                "Adjusted location parity index for completion rate, by sex, location, wealth quintile and education level [4.5.1]",
+                "Adjusted wealth parity index for completion rate, by sex, location, wealth quintile and education level [4.5.1]",
+                "Adjusted gender parity index for participation rate in formal and non-formal education and training (ratio) [4.5.1]",
+                "Adjusted gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio) [4.5.1]",
+                "Adjusted gender parity index for the proportion of teachers with the minimum required qualifications, by education level (ratio) [4.5.1]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Degree of urbanisation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Income or wealth quantile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Quintile 1 (poorest)",
+                "Quintile 2",
+                "Quintile 3",
+                "Quintile 4",
+                "Quintile 5 (richest)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                "Secondary education (lower and upper secondary education)",
+                "Pre-primary education",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Ethiopia DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "National Labor Force Survey. Reference period for participation in education and training: unknown, likely 1 month prior to the interview. Data extracted on 01 April 2022.",
+                "UNESCO Institute for Statistics.  Data extracted on 01 April 2022.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  This data point is NOT APPLICABLE for the submitting nation.",
+                "Obs_Value = 0;  This data point is NIL for the submitting nation.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  This data point is NOT APPLICABLE for the submitting nation.",
+                "Obs_Value = 0;  This data point is NIL for the submitting nation.",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -1,1 +1,24 @@
-Year,Value
+Year,NATURE,SOURCE_DETAIL,Age,Source details,Value
+2002,CA,Ethiopia 2005 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,3.1
+2003,CA,Ethiopia 2005 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,2.3
+2006,CA,Ethiopia 2011 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,3.8
+2008,CA,Ethiopia 2011 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,1.5
+2009,CA,Ethiopia 2011 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,0.4
+2011,CA,Ethiopia 2014 Mini Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,1.3
+2012,CA,Ethiopia 2014 Mini Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,0.1
+2013,CA,Ethiopia 2016 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,1.0
+2014,CA,Ethiopia 2016 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,0.6
+2016,CA,Ethiopia 2019 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,1.9
+2017,CA,Ethiopia 2019 Demographic and Health Survey,10 to 14 years old,Ethiopia 2019 Demographic and Health Survey,0.5
+2003,C,Ethiopia 2005 Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,103.8
+2006,C,Ethiopia 2007 Census,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,91.0
+2008,C,Ethiopia 2011 Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,87.0
+2009,C,Ethiopia 2011 Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,79.3
+2011,CA,Ethiopia 2014 Mini Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,75.6
+2012,CA,Ethiopia 2014 Mini Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,63.4
+2013,C,Ethiopia 2014 PMA2020 Round 2,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,71.2
+2014,C,Ethiopia 2016 Demographic and Health Survey (DHS),15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,79.5
+2015,CA,Ethiopia 2016 PMA2020 Round 4,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,76.6
+2016,CA,Ethiopia 2019 Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,78.6
+2017,CA,Ethiopia 2019 Demographic and Health Survey,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,72.4
+2018,CA,Ethiopia 2019 PMA Cross Sectional,15 to 19 years old,Ethiopia 2019 PMA Cross Sectional,73.5

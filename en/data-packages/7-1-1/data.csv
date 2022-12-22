@@ -1,1 +1,62 @@
-Year,Value
+Year,NATURE,Degree of urbanisation,Observation-level footnotes,Value
+2000,C,,,12.7
+2001,M,,,10.16249
+2002,M,,,11.85483
+2003,M,,,13.54194
+2004,M,,,15.22616
+2005,C,,,14.0
+2006,M,,,18.5954
+2007,M,,,20.28548
+2008,M,,,21.98279
+2009,M,,,23.69004
+2010,M,,,25.40994
+2011,C,,,23.0
+2012,M,,,28.89852
+2013,M,,,30.67167
+2014,C,,,27.2
+2015,C,,,29.0
+2016,C,,,42.9
+2017,C,,,44.3
+2018,M,,,44.9406
+2019,M,,,48.06359
+2020,M,,,51.09398
+2000,M,Rural,Obs_Value = NaN;  data not available,1.72193
+2003,M,Rural,Obs_Value = NaN;  data not available,1.4284
+2004,M,Rural,Obs_Value = NaN;  data not available,3.11762
+2005,M,Rural,Obs_Value = NaN;  data not available,0.64662
+2006,M,Rural,Obs_Value = NaN;  data not available,6.49284
+2007,M,Rural,Obs_Value = NaN;  data not available,8.17014
+2008,M,Rural,Obs_Value = NaN;  data not available,9.70068
+2009,M,Rural,Obs_Value = NaN;  data not available,11.24338
+2010,M,Rural,Obs_Value = NaN;  data not available,12.80029
+2011,M,Rural,Obs_Value = NaN;  data not available,9.59069
+2012,M,Rural,Obs_Value = NaN;  data not available,15.98019
+2013,M,Rural,Obs_Value = NaN;  data not available,17.62691
+2014,M,Rural,Obs_Value = NaN;  data not available,12.00608
+2015,M,Rural,Obs_Value = NaN;  data not available,15.49695
+2016,M,Rural,Obs_Value = NaN;  data not available,32.36384
+2017,M,Rural,Obs_Value = NaN;  data not available,30.97069
+2018,M,Rural,Obs_Value = NaN;  data not available,32.62995
+2019,M,Rural,Obs_Value = NaN;  data not available,36.05719
+2020,M,Rural,Obs_Value = NaN;  data not available,39.41491
+2000,C,Urban,,76.2
+2001,M,Urban,,79.24696
+2002,M,Urban,,79.89574
+2003,M,Urban,,80.55013
+2004,M,Urban,,81.21709
+2005,C,Urban,,85.7
+2006,M,Urban,,82.61439
+2007,M,Urban,,83.34597
+2008,M,Urban,,84.09264
+2009,M,Urban,,84.8487
+2010,M,Urban,,85.60847
+2011,C,Urban,,85.2
+2012,M,Urban,,87.11639
+2013,M,Urban,,87.85442
+2014,C,Urban,,91.98252
+2015,C,Urban,,85.0
+2016,C,Urban,,85.4
+2017,C,Urban,,96.6
+2018,M,Urban,,91.92125
+2019,M,Urban,,92.62444
+2020,M,Urban,,93.24792

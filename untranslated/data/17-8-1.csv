@@ -1,1 +1,22 @@
-Year,Value
+Year,NATURE,SOURCE_DETAIL,Value
+2000,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.01526
+2001,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.03716
+2002,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.0724
+2003,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.10581
+2004,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.15533
+2005,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.21966
+2006,C,Ethiopian Telecommunications Corporation (ETC). Ethiopian Telecommunication Agency.,0.31059
+2007,C,Ethiopian Telecommunication Agency,0.37
+2008,E,ITU estimate.,0.45
+2009,E,ITU estimate.,0.54
+2010,E,ITU estimate.,0.75
+2011,E,ITU estimate.,1.1
+2012,E,ITU estimate.,2.9
+2013,E,ITU estimate.,4.6
+2014,E,ITU estimate.,7.7
+2015,C,Ministry of Communications and Information Technology,13.85518
+2016,C,Ministry of Communications and Information Technology,15.36692
+2017,E,ITU estimate.,18.61805
+2018,E,ITU estimate.,20.0
+2019,E,ITU estimate.,22.0
+2020,E,ITU estimate.,24.0

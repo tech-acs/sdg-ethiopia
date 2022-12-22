@@ -1,1 +1,73 @@
-Year,Value
+Year,Economic activity,Observation-level footnotes,Value
+2002,,,1.85542
+2003,,,1.63967
+2004,,,1.5678
+2005,,,1.52087
+2006,,,1.62066
+2007,,,1.76184
+2008,,,1.80136
+2009,,,1.92977
+2010,,,2.20009
+2011,,,2.45728
+2012,,,2.45208
+2013,,,2.79356
+2014,,,3.15588
+2015,,,3.55932
+2016,,,3.84432
+2017,,,4.317
+2018,,,4.86982
+2019,,,5.11056
+2002,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07341
+2003,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.05621
+2004,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.05327
+2005,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.05592
+2006,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.05915
+2007,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.05982
+2008,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07125
+2009,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07393
+2010,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.06972
+2011,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07196
+2012,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.08086
+2013,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.0799
+2014,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07912
+2015,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07866
+2016,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07841
+2017,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.08261
+2018,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.07995
+2019,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.09397
+2002,Industries,Obs_Value = NaN;  NaN = A figure was not provided,94.58625
+2003,Industries,Obs_Value = NaN;  NaN = A figure was not provided,63.88694
+2004,Industries,Obs_Value = NaN;  NaN = A figure was not provided,53.83332
+2005,Industries,Obs_Value = NaN;  NaN = A figure was not provided,45.35809
+2006,Industries,Obs_Value = NaN;  NaN = A figure was not provided,49.57115
+2007,Industries,Obs_Value = NaN;  NaN = A figure was not provided,54.92742
+2008,Industries,Obs_Value = NaN;  NaN = A figure was not provided,54.81831
+2009,Industries,Obs_Value = NaN;  NaN = A figure was not provided,57.97286
+2010,Industries,Obs_Value = NaN;  NaN = A figure was not provided,63.07169
+2011,Industries,Obs_Value = NaN;  NaN = A figure was not provided,73.54748
+2012,Industries,Obs_Value = NaN;  NaN = A figure was not provided,79.31555
+2013,Industries,Obs_Value = NaN;  NaN = A figure was not provided,102.39281
+2014,Industries,Obs_Value = NaN;  NaN = A figure was not provided,141.96394
+2015,Industries,Obs_Value = NaN;  NaN = A figure was not provided,193.49174
+2016,Industries,Obs_Value = NaN;  NaN = A figure was not provided,281.88483
+2017,Industries,Obs_Value = NaN;  NaN = A figure was not provided,331.94466
+2018,Industries,Obs_Value = NaN;  NaN = A figure was not provided,413.34782
+2019,Industries,Obs_Value = NaN;  NaN = A figure was not provided,405.12336
+2002,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,23.85606
+2003,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,16.38876
+2004,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,13.16324
+2005,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,11.4154
+2006,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,12.56106
+2007,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,14.14396
+2008,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,14.97476
+2009,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,16.67101
+2010,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,19.98286
+2011,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,22.90239
+2012,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,23.10068
+2013,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,26.50845
+2014,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,29.339
+2015,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,32.15352
+2016,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,31.35028
+2017,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,34.28828
+2018,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,36.38367
+2019,Services (G to T),Obs_Value = NaN;  NaN = A figure was not provided,39.86985

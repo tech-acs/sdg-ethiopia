@@ -12,7 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "G",
+                "CA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia - Household Income, Consumption and Expenditure Survey 2004-2005 - World Bank SHIP Harmonized Dataset",
+                "Ethiopia Household Income, Consumption and Expenditure survey 2011",
+                "Household Income and Consumption Ethiopian Survey 2015-2016- World Bank SSAPOV serie",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income [3.8.2]",
+                "Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income [3.8.2]",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

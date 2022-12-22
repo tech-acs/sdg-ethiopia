@@ -1,1 +1,19 @@
-Year,Value
+Year,SDG Series,Sex,Value
+2014,Productivity of large-scale food producers [2.3.1],,6.45
+2016,Productivity of large-scale food producers [2.3.1],,6.05
+2019,Productivity of large-scale food producers [2.3.1],,7.82
+2014,Productivity of large-scale food producers [2.3.1],Female,7.51
+2016,Productivity of large-scale food producers [2.3.1],Female,8.6
+2019,Productivity of large-scale food producers [2.3.1],Female,6.09
+2014,Productivity of large-scale food producers [2.3.1],Male,6.28
+2016,Productivity of large-scale food producers [2.3.1],Male,5.65
+2019,Productivity of large-scale food producers [2.3.1],Male,8.03
+2014,Productivity of small-scale food producers [2.3.1],,3.9
+2016,Productivity of small-scale food producers [2.3.1],,4.4
+2019,Productivity of small-scale food producers [2.3.1],,4.9
+2014,Productivity of small-scale food producers [2.3.1],Female,3.6
+2016,Productivity of small-scale food producers [2.3.1],Female,5.0
+2019,Productivity of small-scale food producers [2.3.1],Female,4.4
+2014,Productivity of small-scale food producers [2.3.1],Male,4.0
+2016,Productivity of small-scale food producers [2.3.1],Male,4.2
+2019,Productivity of small-scale food producers [2.3.1],Male,5.1

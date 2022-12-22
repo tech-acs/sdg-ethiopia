@@ -12,7 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of time spent on unpaid domestic chores and care work [5.4.1]",
+                "Proportion of time spent on unpaid care work [5.4.1]",
+                "Proportion of time spent on unpaid domestic chores [5.4.1]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

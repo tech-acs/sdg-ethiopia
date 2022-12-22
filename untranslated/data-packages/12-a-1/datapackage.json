@@ -12,7 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Year-end value for installed capacity (watts) and mid-year for population ",
+                "Obs_Value = 0;  Year-end value for installed capacity (watts) and mid-year for population ",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Type of renewable technology: Bioenergy",
+                "Type of renewable technology: Geothermal energy",
+                "Type of renewable technology: Hydropower",
+                "Type of renewable technology: Solar energy",
+                "Type of renewable technology: Wind energy",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

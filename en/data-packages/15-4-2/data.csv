@@ -1,1 +1,29 @@
-Year,Value
+Year,COMMENT_OBS,Composite breakdown,Observation-level footnotes,Value
+2000,FAO estimate,,FAO estimate,96.06
+2010,FAO estimate,,FAO estimate,96.11
+2015,FAO estimate,,FAO estimate,96.09
+2018,FAO estimate,,FAO estimate,96.12
+2000,Obs_Value = 0;  FAO estimate,Elevation > 4.500 meters,Obs_Value = 0;  FAO estimate,0.0
+2010,Obs_Value = 0;  FAO estimate,Elevation > 4.500 meters,Obs_Value = 0;  FAO estimate,0.0
+2015,Obs_Value = 0;  FAO estimate,Elevation > 4.500 meters,Obs_Value = 0;  FAO estimate,0.0
+2018,Obs_Value = 0;  FAO estimate,Elevation > 4.500 meters,Obs_Value = 0;  FAO estimate,0.0
+2000,FAO estimate,Elevation 3.500–4.500 meters,FAO estimate,99.45
+2010,FAO estimate,Elevation 3.500–4.500 meters,FAO estimate,99.45
+2015,FAO estimate,Elevation 3.500–4.500 meters,FAO estimate,99.32
+2018,FAO estimate,Elevation 3.500–4.500 meters,FAO estimate,99.34
+2000,FAO estimate,Elevation 2.500–3.500 meters,FAO estimate,99.56
+2010,FAO estimate,Elevation 2.500–3.500 meters,FAO estimate,99.52
+2015,FAO estimate,Elevation 2.500–3.500 meters,FAO estimate,99.44
+2018,FAO estimate,Elevation 2.500–3.500 meters,FAO estimate,99.43
+2000,FAO estimate,Elevation 1.500–2.500 meters and slope > 2,FAO estimate,99.69
+2010,FAO estimate,Elevation 1.500–2.500 meters and slope > 2,FAO estimate,99.67
+2015,FAO estimate,Elevation 1.500–2.500 meters and slope > 2,FAO estimate,99.63
+2018,FAO estimate,Elevation 1.500–2.500 meters and slope > 2,FAO estimate,99.62
+2000,FAO estimate,Elevation 1.000–1.500 meters and slope > 5 or local elevation range (LER 7 kilometer radius) > 300 meters,FAO estimate,99.25
+2010,FAO estimate,Elevation 1.000–1.500 meters and slope > 5 or local elevation range (LER 7 kilometer radius) > 300 meters,FAO estimate,99.21
+2015,FAO estimate,Elevation 1.000–1.500 meters and slope > 5 or local elevation range (LER 7 kilometer radius) > 300 meters,FAO estimate,99.2
+2018,FAO estimate,Elevation 1.000–1.500 meters and slope > 5 or local elevation range (LER 7 kilometer radius) > 300 meters,FAO estimate,99.21
+2000,FAO estimate,Elevation 300–1.000 meters and local elevation range (7 kilometer radius) > 300 meters,FAO estimate,80.48
+2010,FAO estimate,Elevation 300–1.000 meters and local elevation range (7 kilometer radius) > 300 meters,FAO estimate,80.88
+2015,FAO estimate,Elevation 300–1.000 meters and local elevation range (7 kilometer radius) > 300 meters,FAO estimate,80.88
+2018,FAO estimate,Elevation 300–1.000 meters and local elevation range (7 kilometer radius) > 300 meters,FAO estimate,81.07

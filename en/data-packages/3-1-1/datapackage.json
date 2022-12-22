@@ -12,12 +12,68 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1250",
+                "1190",
+                "1180",
+                "1170",
+                "1110",
+                "1030",
+                "959",
+                "889",
+                "838",
+                "793",
+                "751",
+                "715",
+                "682",
+                "654",
+                "632",
+                "607",
+                "585",
+                "573",
+                ""
+              ]
+            },
+            "title": "UPPER_BOUND"
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "839",
+                "814",
+                "818",
+                "812",
+                "777",
+                "726",
+                "664",
+                "608",
+                "563",
+                "522",
+                "483",
+                "447",
+                "416",
+                "388",
+                "362",
+                "339",
+                "316",
+                "298",
+                ""
+              ]
+            },
+            "title": "LOWER_BOUND"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

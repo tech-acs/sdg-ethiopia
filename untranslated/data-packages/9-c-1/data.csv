@@ -1,1 +1,26 @@
-Year,Value
+Year,NATURE,SOURCE_DETAIL,SDG Series,Value
+2004,E,"Data based on the World Telecommunication/ICT Indicators Database, 2021, International Telecommunication Union (ITU)",Proportion of population covered by at least a 2G mobile network [9.c.1],9.7
+2005,E,"Data based on the World Telecommunication/ICT Indicators Database, 2021, International Telecommunication Union (ITU)",Proportion of population covered by at least a 2G mobile network [9.c.1],10.0
+2006,E,"Data based on the World Telecommunication/ICT Indicators Database, 2021, International Telecommunication Union (ITU)",Proportion of population covered by at least a 2G mobile network [9.c.1],10.0
+2012,E,ITU research.,Proportion of population covered by at least a 2G mobile network [9.c.1],73.0
+2014,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 2G mobile network [9.c.1],90.0
+2015,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 2G mobile network [9.c.1],95.0
+2016,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 2G mobile network [9.c.1],97.0
+2017,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 2G mobile network [9.c.1],97.0
+2019,E,ITU estimate.,Proportion of population covered by at least a 2G mobile network [9.c.1],97.0
+2020,E,ITU estimate.,Proportion of population covered by at least a 2G mobile network [9.c.1],97.0
+2011,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 3G mobile network [9.c.1],4.0
+2012,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 3G mobile network [9.c.1],4.0
+2013,E,ITU estimate.,Proportion of population covered by at least a 3G mobile network [9.c.1],17.54
+2014,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 3G mobile network [9.c.1],65.0
+2015,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 3G mobile network [9.c.1],71.0
+2016,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 3G mobile network [9.c.1],85.0
+2017,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 3G mobile network [9.c.1],85.0
+2019,E,ITU estimate.,Proportion of population covered by at least a 3G mobile network [9.c.1],85.0
+2020,E,ITU estimate.,Proportion of population covered by at least a 3G mobile network [9.c.1],85.0
+2014,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 4G mobile network [9.c.1],10.0
+2015,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 4G mobile network [9.c.1],10.0
+2016,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 4G mobile network [9.c.1],10.0
+2017,C,Ministry of Communications and Information Technology,Proportion of population covered by at least a 4G mobile network [9.c.1],7.0
+2019,E,ITU estimate.,Proportion of population covered by at least a 4G mobile network [9.c.1],7.0
+2020,E,ITU estimate.,Proportion of population covered by at least a 4G mobile network [9.c.1],7.0

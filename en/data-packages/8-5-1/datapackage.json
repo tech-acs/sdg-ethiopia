@@ -12,8 +12,63 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "U",
+                ""
+              ]
+            },
+            "title": "OBS_STATUS"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Managers",
+                "Professionals",
+                "Technicians and associate professionals",
+                "Clerical support workers",
+                "Service and sales workers",
+                "Skilled agricultural, forestry and fishery workers",
+                "Craft and related trades workers",
+                "Plant and machine operators, and assemblers",
+                "Elementary occupations",
+                "Not elsewhere classified",
+                "Armed forces",
+                "Legislators, senior officials and managers",
+                "Clerks",
+                "Service workers and shop and market sales workers",
+                "Skilled agricultural and fishery workers",
+                "Plant and machine operators and assemblers",
+                ""
+              ]
+            },
+            "title": "Occupation"
+          },
+          {
+            "name": "Observation status",
+            "type": "string",
+            "title": "Observation status"
           },
           {
             "name": "Value",

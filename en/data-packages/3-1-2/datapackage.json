@@ -12,8 +12,38 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unclear definition of the cadres included",
+                "Cadres included align with the standard definition of: Doctor, nurse and/or midwife",
+                "Definition includes other cadres that is not in alignment with the standard definition",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Central Statistical Authority [Ethiopia], ORC Macro. Ethiopia Demographic and Health Survey 2000. Addis Ababa, Ethiopia and Calverton, Maryland, USA: Central Statistical Authority, ORC Macro; 2001.",
+                "Welfare Monitoring Survey 2004. Statistical Report on Basic Population Characteristics, Education, Health, Nutritional Status and Child Care. Statistical bulletin. Addis Ababa: Central Statistical Authority, Ethiopia; 2004.",
+                "Central Statistical Agency, ORC Macro. Ethiopia Demographic and Health Survey 2005. Addis Ababa, Ethiopia and Calverton, Maryland, USA: Central Statistical Agency, ORC Macro; 2006.",
+                "Central Statistical Agency [Ethiopia], ICF International. Ethiopia Demographic and Health Survey 2011. Addis Ababa, Ethiopia and Calverton, Maryland, USA: Central Statistical Agency, ICF International; 2012.",
+                "Ethiopia Mini Demographic and Health Survey 2014. Addis Ababa: Central Statistical Agency [Ethiopia]; 2014.",
+                "Central Statistical Agency (CSA) [Ethiopia], ICF. Ethiopia Demographic and Health Survey 2016. Addis Ababa, Ethiopia, and Rockville, Maryland, USA: CSA , ICF; 2016.",
+                "Ethiopian Public Health Institute (EPHI) [Ethiopia] and ICF. 2019. Ethiopia Mini Demographic and\n\n\n\nHealth Survey 2019: Key Indicators. Rockville, Maryland, USA: EPHI and ICF.",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
           },
           {
             "name": "Value",

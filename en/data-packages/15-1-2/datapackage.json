@@ -12,8 +12,92 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15.5298",
+                "15.6218",
+                "15.6393",
+                "15.7585",
+                "16.3169",
+                "12.4001",
+                "12.4101",
+                "12.4962",
+                "13.0054",
+                "13.1138",
+                "14.468",
+                "14.4778",
+                "15.0161",
+                "16.4303",
+                ""
+              ]
+            },
+            "title": "UPPER_BOUND"
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "12.5335",
+                "12.6807",
+                "12.6981",
+                "12.8173",
+                "16.3169",
+                "11.2806",
+                "11.2906",
+                "11.3767",
+                "11.8859",
+                "11.9943",
+                "13.3583",
+                "13.379",
+                "13.9172",
+                "16.4303",
+                ""
+              ]
+            },
+            "title": "LOWER_BOUND"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas [15.1.2]",
+                "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas [15.1.2]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "16.3169",
+                "16.4303",
+                ""
+              ]
+            },
+            "title": "Upper bound value"
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "16.3169",
+                "16.4303",
+                ""
+              ]
+            },
+            "title": "Lower bound value"
           },
           {
             "name": "Value",

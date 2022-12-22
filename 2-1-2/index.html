@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-ethiopia/assets/css/style.css?v=20221222051544">
+        <link rel="stylesheet" href="/sdg-ethiopia/assets/css/style.css?v=20221222055242">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -386,27 +386,279 @@ data-event-label="high"
   data-id="2-1-2"
   data-country="Ethiopia"
   data-charttitle="Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)"
-  data-charttitles="[]"
+  data-charttitles="null"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
-  data-showmap="false"
-  data-startvalues="[]"
-  data-graphlimits="[]"
+  data-showmap=""
+  data-startvalues="null"
+  data-graphlimits="null"
   data-stackeddisaggregation=""
-  data-graphannotations="[]"
+  data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;UNIT_MULT&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;0&quot;,&quot;3&quot;,&quot;&quot;]},&quot;title&quot;:&quot;UNIT_MULT&quot;},{&quot;name&quot;:&quot;COMMENT_OBS&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;The observation represents the 3-year average of the period 2014-2016.&quot;,&quot;The observation represents the 3-year average of the period 2015-2017.&quot;,&quot;The observation represents the 3-year average of the period 2016-2018.&quot;,&quot;The observation represents the 3-year average of the period 2017-2019.&quot;,&quot;The observation represents the 3-year average of the period 2018-2020.&quot;,&quot;The observation represents the 3-year average of the period 2019-2021.&quot;,&quot;&quot;]},&quot;title&quot;:&quot;COMMENT_OBS&quot;},{&quot;name&quot;:&quot;UPPER_BOUND&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;59.7&quot;,&quot;61.7&quot;,&quot;63.1&quot;,&quot;61.4&quot;,&quot;60.3&quot;,&quot;60.2&quot;,&quot;59.4&quot;,&quot;59.3&quot;,&quot;58.4&quot;,&quot;56.2&quot;,&quot;56.3&quot;,&quot;57.8&quot;,&quot;57.6&quot;,&quot;61&quot;,&quot;64.1&quot;,&quot;62.7&quot;,&quot;61.5&quot;,&quot;60.7&quot;,&quot;60228.1&quot;,&quot;63909.4&quot;,&quot;67201.1&quot;,&quot;67094.8&quot;,&quot;67551.8&quot;,&quot;69280.1&quot;,&quot;17464.8&quot;,&quot;18068.8&quot;,&quot;18417&quot;,&quot;18306.4&quot;,&quot;18955.7&quot;,&quot;20109.4&quot;,&quot;16642.2&quot;,&quot;18276.7&quot;,&quot;19886.6&quot;,&quot;20118.5&quot;,&quot;20389.4&quot;,&quot;20789.1&quot;,&quot;16.6&quot;,&quot;17.3&quot;,&quot;17.1&quot;,&quot;16.3&quot;,&quot;18.8&quot;,&quot;22.4&quot;,&quot;17.5&quot;,&quot;15.5&quot;,&quot;14.5&quot;,&quot;14.8&quot;,&quot;16.2&quot;,&quot;14.6&quot;,&quot;16.1&quot;,&quot;16.4&quot;,&quot;15.6&quot;,&quot;16789.4&quot;,&quot;17944.8&quot;,&quot;18161.2&quot;,&quot;17768.7&quot;,&quot;21096.2&quot;,&quot;25779.9&quot;,&quot;5142.1&quot;,&quot;5193.8&quot;,&quot;4886.2&quot;,&quot;4711.4&quot;,&quot;4986.8&quot;,&quot;5622.2&quot;,&quot;4221.2&quot;,&quot;4832.5&quot;,&quot;5372.3&quot;,&quot;5265.3&quot;,&quot;5158.5&quot;,&quot;5306.8&quot;,&quot;&quot;]},&quot;title&quot;:&quot;UPPER_BOUND&quot;},{&quot;name&quot;:&quot;LOWER_BOUND&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;52.7&quot;,&quot;54.9&quot;,&quot;55.7&quot;,&quot;54.4&quot;,&quot;52.4&quot;,&quot;52.3&quot;,&quot;51.2&quot;,&quot;51.4&quot;,&quot;50.1&quot;,&quot;48.3&quot;,&quot;48.8&quot;,&quot;52&quot;,&quot;54.5&quot;,&quot;53.9&quot;,&quot;53.4&quot;,&quot;54&quot;,&quot;53179.7&quot;,&quot;56918.2&quot;,&quot;59252.4&quot;,&quot;59405.2&quot;,&quot;58767.8&quot;,&quot;60056.5&quot;,&quot;15056.9&quot;,&quot;15652.6&quot;,&quot;15798.2&quot;,&quot;15736.1&quot;,&quot;16458.5&quot;,&quot;17807.3&quot;,&quot;13945.8&quot;,&quot;15563.8&quot;,&quot;16903.4&quot;,&quot;17287.9&quot;,&quot;17715.4&quot;,&quot;18495.4&quot;,&quot;12.4&quot;,&quot;12.7&quot;,&quot;12.5&quot;,&quot;12&quot;,&quot;14.1&quot;,&quot;16.9&quot;,&quot;12.2&quot;,&quot;11.7&quot;,&quot;10.4&quot;,&quot;9.7&quot;,&quot;11.9&quot;,&quot;9.1&quot;,&quot;10&quot;,&quot;11.2&quot;,&quot;10.9&quot;,&quot;11&quot;,&quot;11.5&quot;,&quot;12515.1&quot;,&quot;13191.8&quot;,&quot;13308.8&quot;,&quot;13122.2&quot;,&quot;15746.8&quot;,&quot;19387.5&quot;,&quot;3581.5&quot;,&quot;3565.9&quot;,&quot;3291.4&quot;,&quot;3155.6&quot;,&quot;3502.8&quot;,&quot;4139.2&quot;,&quot;2618.6&quot;,&quot;2996&quot;,&quot;3470.6&quot;,&quot;3508.4&quot;,&quot;3653.6&quot;,&quot;3923.9&quot;,&quot;&quot;]},&quot;title&quot;:&quot;LOWER_BOUND&quot;},{&quot;name&quot;:&quot;SDG Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Prevalence of moderate or severe food insecurity in the population [2.1.2]&quot;,&quot;Population in moderate or severe food insecurity (number) [2.1.2]&quot;,&quot;Prevalence of severe food insecurity in the population [2.1.2]&quot;,&quot;Population in severe food insecurity (number) [2.1.2]&quot;,&quot;&quot;]},&quot;title&quot;:&quot;SDG Series&quot;},{&quot;name&quot;:&quot;Sex&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Female&quot;,&quot;Male&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sex&quot;},{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;15 years old and over&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Unit of measure&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Percent&quot;,&quot;Number&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Unit multiplier&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit multiplier&quot;},{&quot;name&quot;:&quot;Upper bound value&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;60.2&quot;,&quot;57.8&quot;,&quot;60.7&quot;,&quot;69280.1&quot;,&quot;20109.4&quot;,&quot;20789.1&quot;,&quot;22.4&quot;,&quot;16.2&quot;,&quot;15.5&quot;,&quot;25779.9&quot;,&quot;5622.2&quot;,&quot;5306.8&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Upper bound value&quot;},{&quot;name&quot;:&quot;Lower bound value&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;52.3&quot;,&quot;51.2&quot;,&quot;54&quot;,&quot;60056.5&quot;,&quot;17807.3&quot;,&quot;18495.4&quot;,&quot;16.9&quot;,&quot;11.9&quot;,&quot;11.5&quot;,&quot;19387.5&quot;,&quot;4139.2&quot;,&quot;3923.9&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Lower bound value&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
-  data-precision="[]"
+  data-precision="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/sdg-ethiopia/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="/sdg-ethiopia/en/data/2-1-2.csv" class="btn btn-primary btn-download" download='indicator_2-1-2.csv' tabindex='0' role='button'>Download source data (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
+
+    
+    <h3>No headline data available</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/sdg-ethiopia/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Chart</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Table</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
+      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)</h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Download chart image as PNG"
+          aria-label="Download chart image as PNG"
+          class='btn btn-primary btn-download'>
+          Download chart image (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Click to sort by this column</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -1129,8 +1381,6 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -1148,12 +1398,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-ethiopia/assets/js/sdg.js?v=20221222051544'></script>
+<script src='/sdg-ethiopia/assets/js/sdg.js?v=20221222055242'></script>
 
 
     
     
-    <script src="/sdg-ethiopia/assets/js/custom.js?v=20221222051544"></script><script>
+    <script src="/sdg-ethiopia/assets/js/custom.js?v=20221222055242"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

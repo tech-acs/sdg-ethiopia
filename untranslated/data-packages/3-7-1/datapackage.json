@@ -12,7 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ethiopia 2000 Demographic and Health Survey",
+                "Ethiopia 2005 Demographic and Health Survey",
+                "Ethiopia 2011 Demographic and Health Survey",
+                "Ethiopia 2014 PMA2020 Round 2",
+                "Ethiopia 2015 PMA2020 Round 3",
+                "Ethiopia 2016 Demographic and Health Survey",
+                "Ethiopia 2017 PMA2020 Round 5",
+                "Ethiopia 2018 PMA2020 Round 6",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

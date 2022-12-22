@@ -12,11 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E",
+                "C",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  Out of 8 local breeds, 0% are of unknown status",
+                "Obs_Value = 0;  Out of 8 local breeds, 38% are of unknown status",
+                "Out of 9 local breeds, 11% are of unknown status",
+                "Out of 60 local breeds, 87% are of unknown status",
+                "Out of 63 local breeds, 83% are of unknown status",
+                "Out of 72 local breeds, 72% are of unknown status",
+                "Out of 72 local breeds, 79% are of unknown status",
+                "Obs_Value = 0;  Out of 72 local breeds, 83% are of unknown status",
+                "Obs_Value = 0;  Out of 72 local breeds, 88% are of unknown status",
+                "Out of 73 local breeds, 97% are of unknown status",
+                "Out of 74 local breeds, 96% are of unknown status",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

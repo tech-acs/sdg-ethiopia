@@ -12,8 +12,154 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "BASE_PER",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2017",
+                ""
+              ]
+            },
+            "title": "BASE_PER"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "G",
+                "M",
+                ""
+              ]
+            },
+            "title": "NATURE"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Accessed September 14, 2022. Based on data from HICES. Estimated from unit-record consumption data. ",
+                "Accessed September 14, 2022. Survey name: HICES. Uses a consumption aggregate, which is not spatially deflated.",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Poverty and Inequality Portal, World Bank",
+                "Source = ILO modelled estimates, November 2021, available in ILOSTAT (https://ilostat.ilo.org/). For the specific sources by country and the estimation methodology refer to ILOSTAT directly.",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population below international poverty line [1.1.1]",
+                "Employed population below international poverty line [1.1.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "65 years old and over",
+                "under 15 years old",
+                "15 to 64 years old",
+                "15 years old and over",
+                "25 years old and over",
+                "15 to 24 years old",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Degree of urbanisation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
+            "name": "Base period",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2017",
+                ""
+              ]
+            },
+            "title": "Base period"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Global monitoring data",
+                "Modeled",
+                ""
+              ]
+            },
+            "title": "Nature of data points"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Accessed September 14, 2022. Based on data from HICES. Estimated from unit-record consumption data. ",
+                "Accessed September 14, 2022. Survey name: HICES. Uses a consumption aggregate, which is not spatially deflated.",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Poverty and Inequality Portal, World Bank",
+                "Source = ILO modelled estimates, November 2021, available in ILOSTAT (https://ilostat.ilo.org/). For the specific sources by country and the estimation methodology refer to ILOSTAT directly.",
+                ""
+              ]
+            },
+            "title": "Source details"
           },
           {
             "name": "Value",

@@ -12,7 +12,65 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "C",
+                "E",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "UNESCO Institute for Statistics.  Data extracted on 01 April 2022.",
+                "EDUCATION STATISTICS ANNUAL ABSTRACT 2012 E.C. 2019/20 (http://www.moe.gov.et/storage/Books/Education%20Statistics%20Annual%20Abstract%20March%202019%20-%20September%202020.pdf); Data extracted on 01 April 2022.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Secondary education (lower and upper secondary education)",
+                "Pre-primary education",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "UNESCO Institute for Statistics.  Data extracted on 01 April 2022.",
+                "EDUCATION STATISTICS ANNUAL ABSTRACT 2012 E.C. 2019/20 (http://www.moe.gov.et/storage/Books/Education%20Statistics%20Annual%20Abstract%20March%202019%20-%20September%202020.pdf); Data extracted on 01 April 2022.",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

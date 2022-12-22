@@ -1,1 +1,7 @@
-Year,Value
+Year,COMMENT_OBS,SDG Series,Composite breakdown,Unit of measure,Observation-level footnotes,Value
+2019,Medium Confidence,Food waste [12.3.1],Food Waste Sector: Households,Metric Tons,Medium Confidence,10327235.51553
+2019,Very Low Confidence,Food waste [12.3.1],Food Waste Sector: Out-of-home consumption,Metric Tons,Very Low Confidence,3098760.25491
+2019,Very Low Confidence,Food waste [12.3.1],Food Waste Sector: Retail,Metric Tons,Very Low Confidence,1752936.48861
+2019,,Food waste per capita [12.3.1],Food Waste Sector: Households,Kilograms,,92.14269
+2019,,Food waste per capita [12.3.1],Food Waste Sector: Out-of-home consumption,Kilograms,,27.64807
+2019,,Food waste per capita [12.3.1],Food Waste Sector: Retail,Kilograms,,15.64022

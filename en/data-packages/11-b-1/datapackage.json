@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  Disclaimer: The data being submitted by UNDRR has been extracted from the Sendai Framework Monitoring System as provided by designated national focal points. Some of the data has not followed an official validation process and may be subject to revision at a later date.",
+                "Disclaimer: The data being submitted by UNDRR has been extracted from the Sendai Framework Monitoring System as provided by designated national focal points. Some of the data has not followed an official validation process and may be subject to revision at a later date.",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
           },
           {
             "name": "Value",

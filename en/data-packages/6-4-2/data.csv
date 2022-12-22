@@ -1,1 +1,73 @@
-Year,Value
+Year,Economic activity,Observation-level footnotes,Value
+2002,,Obs_Value = NaN;  NaN = A figure was not provided,16.99694
+2003,,Obs_Value = NaN;  NaN = A figure was not provided,19.34465
+2004,,Obs_Value = NaN;  NaN = A figure was not provided,21.69235
+2005,,Obs_Value = NaN;  NaN = A figure was not provided,24.04006
+2006,,Obs_Value = NaN;  NaN = A figure was not provided,24.78707
+2007,,Obs_Value = NaN;  NaN = A figure was not provided,25.53514
+2008,,Obs_Value = NaN;  NaN = A figure was not provided,26.28268
+2009,,Obs_Value = NaN;  NaN = A figure was not provided,27.02811
+2010,,Obs_Value = NaN;  NaN = A figure was not provided,27.77512
+2011,,Obs_Value = NaN;  NaN = A figure was not provided,28.52213
+2012,,Obs_Value = NaN;  NaN = A figure was not provided,29.26914
+2013,,Obs_Value = NaN;  NaN = A figure was not provided,30.01615
+2014,,Obs_Value = NaN;  NaN = A figure was not provided,30.76316
+2015,,Obs_Value = NaN;  NaN = A figure was not provided,31.51018
+2016,,Obs_Value = NaN;  NaN = A figure was not provided,32.263
+2017,,Obs_Value = NaN;  NaN = A figure was not provided,32.25719
+2018,,Obs_Value = NaN;  NaN = A figure was not provided,32.25719
+2019,,Obs_Value = NaN;  NaN = A figure was not provided,32.25719
+2002,Agriculture (ISIC4 A01 A0210 A0322),,15.91
+2003,Agriculture (ISIC4 A01 A0210 A0322),,17.75
+2004,Agriculture (ISIC4 A01 A0210 A0322),,19.58
+2005,Agriculture (ISIC4 A01 A0210 A0322),,21.41
+2006,Agriculture (ISIC4 A01 A0210 A0322),,22.15
+2007,Agriculture (ISIC4 A01 A0210 A0322),,22.9
+2008,Agriculture (ISIC4 A01 A0210 A0322),,23.65
+2009,Agriculture (ISIC4 A01 A0210 A0322),,24.39
+2010,Agriculture (ISIC4 A01 A0210 A0322),,25.14
+2011,Agriculture (ISIC4 A01 A0210 A0322),,25.89
+2012,Agriculture (ISIC4 A01 A0210 A0322),,26.64
+2013,Agriculture (ISIC4 A01 A0210 A0322),,27.38
+2014,Agriculture (ISIC4 A01 A0210 A0322),,28.13
+2015,Agriculture (ISIC4 A01 A0210 A0322),,28.88
+2016,Agriculture (ISIC4 A01 A0210 A0322),,29.63
+2017,Agriculture (ISIC4 A01 A0210 A0322),,29.62
+2018,Agriculture (ISIC4 A01 A0210 A0322),,29.62
+2019,Agriculture (ISIC4 A01 A0210 A0322),,29.62
+2002,Industries,,0.06
+2003,Industries,,0.09
+2004,Industries,,0.13
+2005,Industries,,0.16
+2006,Industries,,0.16
+2007,Industries,,0.16
+2008,Industries,,0.16
+2009,Industries,,0.16
+2010,Industries,,0.16
+2011,Industries,,0.16
+2012,Industries,,0.16
+2013,Industries,,0.16
+2014,Industries,,0.16
+2015,Industries,,0.16
+2016,Industries,,0.16
+2017,Industries,,0.16
+2018,Industries,,0.16
+2019,Industries,,0.16
+2002,Services (G to T),,1.02
+2003,Services (G to T),,1.5
+2004,Services (G to T),,1.99
+2005,Services (G to T),,2.48
+2006,Services (G to T),,2.48
+2007,Services (G to T),,2.48
+2008,Services (G to T),,2.48
+2009,Services (G to T),,2.48
+2010,Services (G to T),,2.48
+2011,Services (G to T),,2.48
+2012,Services (G to T),,2.48
+2013,Services (G to T),,2.48
+2014,Services (G to T),,2.48
+2015,Services (G to T),,2.48
+2016,Services (G to T),,2.48
+2017,Services (G to T),,2.48
+2018,Services (G to T),,2.48
+2019,Services (G to T),,2.48

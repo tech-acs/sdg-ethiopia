@@ -1,1 +1,37 @@
-Year,Value
+Year,SDG Series,Sex,Age,Disability status,Value
+2005,Unemployment rate [8.5.2],,15 years old and over,,2.5
+2013,Unemployment rate [8.5.2],,15 years old and over,,2.3
+2005,Unemployment rate [8.5.2],,25 years old and over,,2.0
+2013,Unemployment rate [8.5.2],,25 years old and over,,1.7
+2005,Unemployment rate [8.5.2],,15 to 24 years old,,3.6
+2013,Unemployment rate [8.5.2],,15 to 24 years old,,3.5
+2005,Unemployment rate [8.5.2],Female,15 years old and over,,3.3
+2013,Unemployment rate [8.5.2],Female,15 years old and over,,2.9
+2005,Unemployment rate [8.5.2],Female,25 years old and over,,2.6
+2013,Unemployment rate [8.5.2],Female,25 years old and over,,2.2
+2005,Unemployment rate [8.5.2],Female,15 to 24 years old,,4.6
+2013,Unemployment rate [8.5.2],Female,15 to 24 years old,,4.5
+2005,Unemployment rate [8.5.2],Male,15 years old and over,,1.8
+2013,Unemployment rate [8.5.2],Male,15 years old and over,,1.7
+2005,Unemployment rate [8.5.2],Male,25 years old and over,,1.5
+2013,Unemployment rate [8.5.2],Male,25 years old and over,,1.2
+2005,Unemployment rate [8.5.2],Male,15 to 24 years old,,2.6
+2013,Unemployment rate [8.5.2],Male,15 to 24 years old,,2.7
+2005,"Unemployment rate, by disability [8.5.2]",,,,2.5
+2013,"Unemployment rate, by disability [8.5.2]",,,,2.3
+2005,"Unemployment rate, by disability [8.5.2]",,,Persons with disability,2.5
+2013,"Unemployment rate, by disability [8.5.2]",,,Persons with disability,1.6
+2005,"Unemployment rate, by disability [8.5.2]",,,Persons without disability,2.5
+2013,"Unemployment rate, by disability [8.5.2]",,,Persons without disability,2.3
+2005,"Unemployment rate, by disability [8.5.2]",Female,,,3.3
+2013,"Unemployment rate, by disability [8.5.2]",Female,,,2.9
+2005,"Unemployment rate, by disability [8.5.2]",Female,,Persons with disability,3.3
+2013,"Unemployment rate, by disability [8.5.2]",Female,,Persons with disability,2.3
+2005,"Unemployment rate, by disability [8.5.2]",Female,,Persons without disability,3.3
+2013,"Unemployment rate, by disability [8.5.2]",Female,,Persons without disability,3.0
+2005,"Unemployment rate, by disability [8.5.2]",Male,,,1.8
+2013,"Unemployment rate, by disability [8.5.2]",Male,,,1.7
+2005,"Unemployment rate, by disability [8.5.2]",Male,,Persons with disability,2.0
+2013,"Unemployment rate, by disability [8.5.2]",Male,,Persons with disability,1.1
+2005,"Unemployment rate, by disability [8.5.2]",Male,,Persons without disability,1.8
+2013,"Unemployment rate, by disability [8.5.2]",Male,,Persons without disability,1.7
