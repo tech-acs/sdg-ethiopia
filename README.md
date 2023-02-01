@@ -11,6 +11,7 @@ This starter repo is called "simple" because it combines the data and site into 
 * Python 3 with [pip](https://pypi.org/project/pip/)
 * Ruby 2 with [bundler](https://bundler.io/)
 
+
 ## Getting started
 
 1. Make your own copy of this repository, by pressing "Use this template" or going [here](https://github.com/open-sdg/open-sdg-simple-starter/generate) and filling out the form. **Make sure that you check the "Include all branches" box!** Other settings can be left alone.
