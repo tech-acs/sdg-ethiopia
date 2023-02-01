@@ -17,9 +17,9 @@ jobs:
       with:
         ruby-version: '2.6'
     - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4.5.0
       with:
-        python-version: 3.7
+        python-version: 3.8
     - name: Install dependencies
       run: make install
     - name: Build the site
