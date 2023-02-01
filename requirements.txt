@@ -1,4 +1,6 @@
 # These are the Python requirements for building the data.
 git+https://github.com/dougmet/yamlmd
+
+# The following line has been added as a work around the build error where the latest frictionless is installed
 frictionless==4.40.8
 git+https://github.com/open-sdg/sdg-build@2.1.0
